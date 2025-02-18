@@ -1,2 +1,45 @@
 Name: Screens
 Type: ScreensCategoryFolder
+Children:
+- Name: Main
+  Id: g=92743eff6ea6b815321ef82d8f03e3d7
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: Label1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Label1"}
+- Name: Diagnosys
+  Id: g=edac179fa003b89b08bdd1518dd4decd
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: LED1
+    Type: Led
+    Children:
+    - Name: Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+- Name: GreenMode
+  Id: g=9a740c91805782b0e905a6a904c91c44
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Maintanance
+  Id: g=3f5a5137e83ccfab26a06246b4fea69a
+  Supertype: Screen
+  ReferenceType: HasComponent
