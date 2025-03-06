@@ -1,0 +1,17 @@
+Name: variablesToLog
+Id: g=7e38d6574c1f22a793dc66ac1659c395
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=e223cf45b1478124886dd8162a3c6ecc
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable2
+  Id: g=264d27e94eb71e835d67aa46d4ff52cc
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Variable3
+  Id: g=2acb59930bc29cebc07a7779478cd4de
+  Type: BaseDataVariableType
+  DataType: Boolean

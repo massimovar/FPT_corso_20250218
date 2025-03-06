@@ -911,10 +911,13 @@ Children:
     Children:
     - Class: Method
       Name: LocalNTPServerOptionsChanged
+      Id: g=71bf91fe6965fcacf299b243e6940727
     - Class: Method
       Name: Reboot_Device
+      Id: g=2700fa78bcd7192e02b3ebff1fccbdd6
     - Class: Method
       Name: SynchronizationModeChanged
+      Id: g=2363ae48a47619a2ccae0d9c9862f9e1
   - Name: Width
     Type: BaseVariableType
     DataType: Size

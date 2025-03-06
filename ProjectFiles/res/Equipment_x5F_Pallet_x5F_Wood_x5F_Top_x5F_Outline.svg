@@ -1,0 +1,7 @@
+<svg version="1.2" baseProfile="tiny" id="EdgeSVG_9fcII" x="0px" y="0px" width="152px" height="152px" viewBox="0 0 152 152" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="75.9995" x2="152" y2="75.9995">
+    <stop offset="0" style="stop-color:#000000;stop-opacity:0.5"/>
+    <stop offset="1" style="stop-color:#000000;stop-opacity:0.5"/>
+  </linearGradient>
+  <path fill-rule="evenodd" fill="url(#SVGID_1_)" d="M0,152V0h152v151.994L150.348,152H0z M137.978,137.982V83.016h-8.91v54.966&#xD;&#xA;&#x9;&#x9;H137.978z M114.979,137.982V83.016h-8.91v54.966H114.979z M91.981,137.982V83.016h-8.91v54.966H91.981z M68.984,137.982V83.016&#xD;&#xA;&#x9;&#x9;h-8.912v54.966H68.984z M45.985,137.982V83.016h-8.912v54.966H45.985z M22.987,137.982V83.016h-8.912v54.966H22.987z M137.978,69&#xD;&#xA;&#x9;&#x9;V14.016h-8.91V69H137.978z M114.979,69V14.016h-8.91V69H114.979z M91.981,69V14.016h-8.91V69H91.981z M68.984,69V14.016h-8.912V69&#xD;&#xA;&#x9;&#x9;H68.984z M45.985,69V14.016h-8.912V69H45.985z M22.987,69V14.016h-8.912V69H22.987z"/>
+</svg>

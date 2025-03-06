@@ -1,0 +1,16 @@
+Name: ns=23;Model
+Id: ns=23;g=b9e26cd25a49d5b80fddb6cace44208e
+Type: ModelCategoryFolder
+DisplayName: {"LocaleId":"","Text":"Model"}
+Children:
+- Name: ns=23;Variable100
+  Id: ns=23;g=c7571d949f06b455e70b55b36ee6d543
+  Type: BaseDataVariableType
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"Variable100"}
+  Value: 1.2345677614212036
+- Name: ns=23;Variable2
+  Id: ns=23;g=b4d52febdbcd385c3b7318af9d7b906e
+  Type: BaseDataVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"","Text":"Variable2"}

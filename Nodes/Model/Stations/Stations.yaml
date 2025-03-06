@@ -1,0 +1,121 @@
+Name: Stations
+Id: g=25bdcb5d3716fa683666d0a80ac397b9
+Type: FolderType
+Children:
+- Name: Station1
+  Id: g=970215fad83bae01fe4de53a8d58e377
+  Type: Station
+  Children:
+  - Name: Number
+    Id: g=4d7d3fe8802be4de5c3d34cfeed4f836
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 1
+  - Name: Quota
+    Id: g=89825e4ecd7146350d7bdd9c2d6bd29d
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Sensors
+    Id: g=d404e7bb4b93c383f50162f00fccc0d3
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+- Name: Station2
+  Id: g=6a03006cc01bacfdce01027f992b572b
+  Type: Station
+  Children:
+  - Name: Number
+    Id: g=ec61958ca6b377c0c2191035a9dd38a7
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 2
+  - Name: Quota
+    Id: g=2dfb60b15dced0ac286e186c6fab13db
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Sensors
+    Id: g=20c9101981d9001f0f89e84b873d6af7
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: [true,false,true,false,false]
+- Name: Station3
+  Id: g=b876ffa672ca52659790f465f60d5d06
+  Type: Station
+  Children:
+  - Name: Number
+    Id: g=7f1ddecfd3e554bfcee871421bc0e9e1
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 3
+  - Name: Quota
+    Id: g=1648b53b24c61a24db110479e5910fe0
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Sensors
+    Id: g=91bccd1f96da4e704de2dcc8c09d35ff
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+- Name: Station4
+  Id: g=e91f60e27e22c48d5e2fd23f97fc78c5
+  Type: Station
+  Children:
+  - Name: Number
+    Id: g=c10600e7946ff9f6fc1562d991414e43
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 4
+  - Name: Quota
+    Id: g=65b3fe86034c0f49f5b9a74d81d58b84
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Sensors
+    Id: g=5c05cfa70fe5f528a5ba5347fc63df17
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: [false,true,false,true,false]
+- Name: Station5
+  Id: g=3b9f9acf22690dd2b6bb808bcf6c96f1
+  Type: Station
+  Children:
+  - Name: Number
+    Id: g=5a24b45ede3432c057abe39f7ce0adc9
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 5
+  - Name: Quota
+    Id: g=b53a1b605e338d37966e6287b9dba929
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Sensors
+    Id: g=1638bfbe562075b705adcfcbb027bdcd
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+- Name: Station6
+  Id: g=b1d8a7d8ac5eea7ecb8036982e9e88ba
+  Type: Station
+  Children:
+  - Name: Number
+    Id: g=abcc616209aca24decb275279c5ed293
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 6
+  - Name: Quota
+    Id: g=f87bb0d4b70d0ba3641ce591a3cef41b
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Sensors
+    Id: g=5c8b14ad2037b6c14899ab4189658d20
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: [false,true,false,true,false]

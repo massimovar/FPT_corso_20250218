@@ -23,15 +23,37 @@ Project:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
    Version: 4.0
+  7:
+   Uri: 'urn:FTOptix:HMIProject'
+   Module: FTOptix.HMIProject
+   Version: 6.5
+  8:
+   Uri: 'urn:FTOptix:HMIProject:Net'
+   Module: FTOptix.HMIProject.Net
+   Version: 4.8
+  9:
+   Uri: 'urn:FTOptix:TagImporter'
+   Module: FTOptix.TagImporter
+   Version: 1.0
+  10:
+   Uri: 'urn:FTOptix:OPCUAImporter'
+   Module: FTOptix.OPCUAImporter
+   Version: 1.0
+  11:
+   Uri: 'urn:FTOptix:CODESYSTagImporter'
+   Module: FTOptix.CODESYSTagImporter
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 0
-  Objects: 0
+  TotalNodeCount: 8
+  Objects: 2
   ObjectTypes: 0
-  Variables: 0
+  Variables: 6
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
   References: 0
   ReferenceTypes: 0
-  Files: 0
- Nodes: []
+  Files: 2
+ Nodes:
+ - File: DesignTimeNodes/CommDrivers/CODESYSDriver1/CODESYSStation1/TagImporter.yaml
+ - File: 'DesignTimeNodes/OPC-UA/OPCUAClient1/OPCUATagImporter.yaml'

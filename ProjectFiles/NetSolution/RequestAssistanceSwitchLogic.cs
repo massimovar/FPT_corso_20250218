@@ -3,6 +3,14 @@ using UAManagedCore;
 using FTOptix.NetLogic;
 using FTOptix.UI;
 using FTOptix.System;
+using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
+using FTOptix.Modbus;
+using FTOptix.CommunicationDriver;
+using FTOptix.CODESYS;
+using FTOptix.DataLogger;
+using FTOptix.Store;
+using FTOptix.SQLiteStore;
 #endregion
 
 public class RequestAssistanceSwitchLogic : BaseNetLogic

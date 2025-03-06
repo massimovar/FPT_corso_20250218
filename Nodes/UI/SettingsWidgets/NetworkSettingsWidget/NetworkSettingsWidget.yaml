@@ -509,8 +509,10 @@ Children:
     Children:
     - Class: Method
       Name: ApplyNetworkConfiguration
+      Id: g=11682905f0a2a6cda1b7d7de2392d00a
     - Class: Method
       Name: Reboot
+      Id: g=8cc4393cb938cf5c1c559362258ac2a8
   - Name: NetworkInterfaceLogic
     Type: NetLogic
   - Name: NetworkConfiguratorEditModelsLogic

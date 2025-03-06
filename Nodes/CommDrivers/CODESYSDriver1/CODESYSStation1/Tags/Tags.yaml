@@ -1,0 +1,378 @@
+Name: Tags
+Type: FolderType
+Children:
+- Name: Application
+  Type: TagStructure
+  DataType: Structure
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
+  Children:
+  - Name: PLC_PRG
+    Type: TagStructure
+    DataType: Structure
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
+    Children:
+    - Name: b_1
+      Type: CODESYSTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.b_1"
+    - Name: b_2
+      Type: CODESYSTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.b_2"
+    - Name: FanArray
+      Type: TagStructure
+      DataType: Structure
+      ValueRank: OneDimension
+      ArrayDimensions: [11]
+      Value: {"Type":22,"Body":[{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}}]}
+      Children:
+      - Name: 10
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: rpm
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[10].rpm"
+        - Name: running
+          Type: CODESYSTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[10].running"
+      - Name: 1
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: rpm
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[1].rpm"
+        - Name: running
+          Type: CODESYSTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[1].running"
+      - Name: 2
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: rpm
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[2].rpm"
+        - Name: running
+          Type: CODESYSTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[2].running"
+      - Name: 3
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: rpm
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[3].rpm"
+        - Name: running
+          Type: CODESYSTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[3].running"
+      - Name: 4
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: rpm
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[4].rpm"
+        - Name: running
+          Type: CODESYSTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[4].running"
+      - Name: 5
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: rpm
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[5].rpm"
+        - Name: running
+          Type: CODESYSTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[5].running"
+      - Name: 6
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: rpm
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[6].rpm"
+        - Name: running
+          Type: CODESYSTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[6].running"
+      - Name: 7
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: rpm
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[7].rpm"
+        - Name: running
+          Type: CODESYSTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[7].running"
+      - Name: 8
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: rpm
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[8].rpm"
+        - Name: running
+          Type: CODESYSTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[8].running"
+      - Name: 9
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: rpm
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[9].rpm"
+        - Name: running
+          Type: CODESYSTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[9].running"
