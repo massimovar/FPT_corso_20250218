@@ -43,3 +43,27 @@ Children:
     ValueRank: OneDimension
     ArrayDimensions: [5]
 - File: variablesToLog/variablesToLog.yaml
+- Name: length
+  Id: g=ed66a24047b87b0371df76cf8d3d2f84
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: ns=0;EngineeringUnits
+    Id: g=62ab89d01a082b81cc0e5daa51879dd8
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+    Children:
+    - Name: UnitId
+      Id: g=b44872468d7691ef37401282b75f984c
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 5066068
+    - Name: DisplayName
+      Id: g=c290dc1c901487a34c135e66dd97831d
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: Description
+      Id: g=32defbcb6e8bd386bde6ffeb90f06635
+      Type: BaseDataVariableType
+      DataType: LocalizedText
