@@ -14,6 +14,8 @@ using FTOptix.CODESYS;
 using FTOptix.DataLogger;
 using FTOptix.Store;
 using FTOptix.SQLiteStore;
+using FTOptix.RAEtherNetIP;
+using FTOptix.Alarm;
 #endregion
 
 public class FTRemoteAccessWidgetSetupLogic : BaseNetLogic
