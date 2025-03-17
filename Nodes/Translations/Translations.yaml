@@ -113,6 +113,7 @@ Children:
     ]
    }
 - Name: LocalizationDictionary2
+  Id: g=88f9172a471187fc785d67b49850bb33
   Type: LocalizationDictionary
   DataType: String
   ValueRank: OneOrMoreDimensions
@@ -120,10 +121,77 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [3,3],
+    "Dimensions": [22,3],
     "Body": [
      "","en-US","it-IT",
-     "_hello","hello","ciao",
-     "motor","motor","motore"
+     "_hello","hello","ciao!",
+     "motor","motor","motore",
+     "_motor1","motor1","motore 1",
+     "_motor2","motor2","motore 2",
+     "_motor3","motor3","motore 3",
+     "_motor4","motor4","motore 4",
+     "_motor5","motor5","motore 5",
+     "_motor6","motor6","motore 6",
+     "_motor7","motor7","motore 7",
+     "_motor8","motor8","motore 8",
+     "_motor9","motor9","motore 9",
+     "_motor10","motor10","motore 10",
+     "_motor11","motor11","motore 11",
+     "_motor12","motor12","motore 12",
+     "_motor13","motor13","motore 13",
+     "_motor14","motor14","motore 14",
+     "_motor15","motor15","motore 15",
+     "_motor16","motor16","motore 16",
+     "_motor17","motor17","motore 17",
+     "_motor18","motor18","motore 18",
+     "_motor19","motor19","motore 19"
     ]
    }
+- Name: ImportAndExportTranslations
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: CSVPath
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///C:/temp/MyTranslations.csv"
+  - Class: Method
+    Name: ExportTranslations
+  - Class: Method
+    Name: ImportTranslations
+  - Name: CharacterSeparator
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ";"
+  - Name: WrapFields
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: LocalizationDictionary
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/FPT_corso_20250218/Translations/LocalizationDictionary2"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/VariableTypes/BaseVariableType/LocalizationDictionary"
+  - Name: ns=7;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 7
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "e7cab90d0ab7e8b5b02218e38bca9a0e",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }

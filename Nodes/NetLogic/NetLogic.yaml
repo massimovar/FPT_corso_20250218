@@ -1,2 +1,16 @@
 Name: NetLogic
 Type: NetLogicCategoryFolder
+Children:
+- Name: MyFirstNetLogic
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: GenerateMyVars
+  - Class: Method
+    Name: Create
+  - Class: Method
+    Name: TestError

@@ -67,3 +67,152 @@ Children:
       Id: g=32defbcb6e8bd386bde6ffeb90f06635
       Type: BaseDataVariableType
       DataType: LocalizedText
+- Name: Variable2
+  Id: g=48dd946a385b6c9a225d6cbdfae0860c
+  Type: BaseDataVariableType
+  DataType: Int32
+- File: MyFolder/MyFolder.yaml
+- Name: MyVar
+  Id: g=4b8a8c2f21ea42e5ae921053b583f8e4
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: Variable3
+  Id: g=330f4991ceb80d1f38c350c2fff1fd80
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable4
+  Id: g=3e345a25336abd879ef8df3fc8a3fa82
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable3Transitioned
+  Id: g=3ac9850d03de9a49235d225d50558ddb
+  Type: VariableTransitionEventDispatcher
+  Children:
+  - Name: Value
+    Id: g=0e17f00ced68e17913399a65a02d0ffe
+    Type: BaseVariableType
+    DataType: Double
+    Value: 42.0
+  - Name: Transition
+    Id: g=2a504cabf14398489fca42204732462c
+    Type: BaseVariableType
+    DataType: VariableTransition
+    Value: 2
+  - Name: VariableNodePath
+    Id: g=5684dee3e063a68f86877fe39a5cbeb2
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../Variable3"
+  - Name: VariableTransitionEventHandler1
+    Id: g=436db792430446234bab75d01447e26b
+    Type: EventHandler
+    Children:
+    - Name: ListenEventType
+      Id: g=07aa50b79268d1022882f8b9103c1be5
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
+    - Name: MethodsToCall
+      Id: g=342c46e26e5719fae302b15a939d821e
+      Type: BaseObjectType
+      Children:
+      - Name: MethodContainer1
+        Id: g=ab6e8175b6e688aaba329d34facf465e
+        Type: BaseObjectType
+        Children:
+        - Name: ns=3;ObjectPointer
+          Id: g=c54ef76c3ff750d5906b816ff0c21d54
+          Type: NodePointer
+          DataType: NodeId
+          Children:
+          - Name: Kind
+            Id: g=aa14f3b65a015ce82bebfa63847051ec
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: DynamicLink
+            Id: g=6325c81c8ccc6e1cc9945a1f81614857
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../../Commands/VariableCommands@NodeId"
+            Children:
+            - Name: Mode
+              Id: g=39ebf00ec4ad27fb610ad506e1256682
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: ns=3;Method
+          Id: g=89710484ccb0bd9104097e8e5cc1e456
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Increment"
+        - Name: InputArguments
+          Id: g=4f9bc54995c5e9574212de7ebc040fe8
+          Type: BaseObjectType
+          Children:
+          - Name: VariableToModify
+            Id: g=eaf19f43ba78e68ff9db171be81c4a5c
+            Type: BaseDataVariableType
+            DataType: VariablePointer
+            Description: {"NamespaceIndex":3,"TextId":"IncrementVariableToModifyDescription"}
+            Value: "/Objects/FPT_corso_20250218/Model/Variable4"
+          - Name: Delta
+            Id: g=c3a283b03698ec54e9bb2c057b524301
+            Type: BaseDataVariableType
+            DataType: Float
+            Description: {"NamespaceIndex":3,"TextId":"IncrementDeltaDescription"}
+            Value: 12.0
+          - Name: ArrayIndex
+            Id: g=cf49563b22a29472e9816734d8ae1f73
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Description: {"NamespaceIndex":3,"TextId":"IncrementArrayIndexDescription"}
+            ValueRank: ScalarOrOneDimension
+    - Name: EventArguments
+      Id: g=3c50db7f09a9d65cdd7a851e8dd19e74
+      Type: VariableTransitionEvent
+      Children:
+      - Name: VariableNodeId
+        Id: g=5328c5f47ecc83ee56849d6f3a54627c
+        Type: BaseVariableType
+        DataType: NodeId
+      - Name: NewValue
+        Id: g=40188e9080ae46060b15b14ca5bfd5e0
+        Type: BaseVariableType
+        DataType: BaseDataType
+      - Name: OldValue
+        Id: g=6128e48ff1d5fe79e8ea2b14695e0642
+        Type: BaseVariableType
+        DataType: BaseDataType
+      - Name: EventId
+        Id: g=73783c6469b05439c6df70ea0ea77a6f
+        Type: PropertyType
+        DataType: ByteString
+      - Name: EventType
+        Id: g=32a8042b17e93bd81ff1a5dc2e71f2c7
+        Type: PropertyType
+        DataType: NodeId
+      - Name: SourceNode
+        Id: g=35e139b256be9c3cdfcd77ea8d629e31
+        Type: PropertyType
+        DataType: NodeId
+      - Name: SourceName
+        Id: g=f704d404f06a43f48594efd9c111d2ec
+        Type: PropertyType
+        DataType: String
+      - Name: Time
+        Id: g=99ce39a2a977e0d78e10ba93859df6a5
+        Type: PropertyType
+        DataType: UtcTime
+      - Name: ReceiveTime
+        Id: g=548da70e908fcc8a8f8ba9e1adbb2a90
+        Type: PropertyType
+        DataType: UtcTime
+      - Name: Message
+        Id: g=f49211872db0b7fd79e68fd10ae12131
+        Type: PropertyType
+        DataType: LocalizedText
+      - Name: Severity
+        Id: g=c334ff9b20ee98df84bbee749470dc88
+        Type: PropertyType
+        DataType: UInt16
