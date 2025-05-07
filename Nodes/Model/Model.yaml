@@ -71,7 +71,6 @@ Children:
   Id: g=48dd946a385b6c9a225d6cbdfae0860c
   Type: BaseDataVariableType
   DataType: Int32
-- File: MyFolder/MyFolder.yaml
 - Name: MyVar
   Id: g=4b8a8c2f21ea42e5ae921053b583f8e4
   Type: BaseDataVariableType
@@ -216,3 +215,124 @@ Children:
         Id: g=c334ff9b20ee98df84bbee749470dc88
         Type: PropertyType
         DataType: UInt16
+- File: MyFolder/MyFolder.yaml
+- Name: Variable1Changed
+  Id: g=12fe117862476628687d108611e08e3f
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Id: g=8db481342cb2a2943a4effaa3a7e8702
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../Variable1"
+  - Name: VariableValueChangedEventHandler1
+    Id: g=a5d2ea321303b856f119449e9ef4c937
+    Type: EventHandler
+    Children:
+    - Name: ListenEventType
+      Id: g=fefe7c211cacdb3e642f1e606d8eaca6
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableValueChangedEvent"
+    - Name: MethodsToCall
+      Id: g=bc54724ca66db16e2ea438a64729c3ff
+      Type: BaseObjectType
+      Children:
+      - Name: MethodContainer1
+        Id: g=45f32c551424aba0c4abc9f4c4d43c90
+        Type: BaseObjectType
+        Children:
+        - Name: ns=3;ObjectPointer
+          Id: g=d9e4daae1806c69013a03ed1614f13e7
+          Type: NodePointer
+          DataType: NodeId
+          Children:
+          - Name: Kind
+            Id: g=a282b46b13a2cbba2aeb5da9f761411f
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: DynamicLink
+            Id: g=8221b63bedbccb5d8aa3d88b23457fbd
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../NetLogic/RuntimeNetLogic1@NodeId"
+            Children:
+            - Name: Mode
+              Id: g=0d57de16ff1b08cabad82665c1ce3b3a
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: ns=3;Method
+          Id: g=a7847bbb282f324e80dc4cd511307dec
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TestMe"
+    - Name: EventArguments
+      Id: g=a8a0ce60083b2dadd5d3aee0d8899118
+      Type: VariableValueChangedEvent
+      Children:
+      - Name: VariableNodeId
+        Id: g=ee587e0026eee8e1dc792eab03625ad6
+        Type: BaseVariableType
+        DataType: NodeId
+      - Name: NewValue
+        Id: g=9d6421d3d499c85a779af61632c84099
+        Type: BaseVariableType
+        DataType: BaseDataType
+      - Name: OldValue
+        Id: g=774420cfe5e3800127016b9655756086
+        Type: BaseVariableType
+        DataType: BaseDataType
+      - Name: EventId
+        Id: g=b544087a61ae1574b035a86911c4f0b6
+        Type: PropertyType
+        DataType: ByteString
+      - Name: EventType
+        Id: g=0a6e04bfc0b714d9e5588b08b2713d59
+        Type: PropertyType
+        DataType: NodeId
+      - Name: SourceNode
+        Id: g=36f9fd4c9d96db3416d8fd64352e409a
+        Type: PropertyType
+        DataType: NodeId
+      - Name: SourceName
+        Id: g=f841652626bdbdaf9837fdf70f474f8c
+        Type: PropertyType
+        DataType: String
+      - Name: Time
+        Id: g=c4b691fe522c750441d41122452d077a
+        Type: PropertyType
+        DataType: UtcTime
+      - Name: ReceiveTime
+        Id: g=069477bbd7c148cd2188391fb522e21f
+        Type: PropertyType
+        DataType: UtcTime
+      - Name: Message
+        Id: g=86d486ee152b688c7ed8561e10dd9872
+        Type: PropertyType
+        DataType: LocalizedText
+      - Name: Severity
+        Id: g=6fbf296f5c3faf44306f56d289fc53df
+        Type: PropertyType
+        DataType: UInt16
+- Name: Variable5
+  Id: g=f0cc1bfdd452c453df3966e94562b8cf
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable6
+  Id: g=a160ec21a51ec638e3def078ec6a5f27
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: DynamicLink
+    Id: g=ff923118d7ef5d039757bd85d536ba16
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/ModbusTag1"
+    Children:
+    - Name: Mode
+      Id: g=a242adcfcc316f69f5be3870099e2adf
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

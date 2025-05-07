@@ -12,6 +12,7 @@ using FTOptix.Store;
 using FTOptix.SQLiteStore;
 using FTOptix.RAEtherNetIP;
 using FTOptix.Alarm;
+using FTOptix.WebUI;
 #endregion
 
 public class DeviceSettingsWidgetLogic : BaseNetLogic

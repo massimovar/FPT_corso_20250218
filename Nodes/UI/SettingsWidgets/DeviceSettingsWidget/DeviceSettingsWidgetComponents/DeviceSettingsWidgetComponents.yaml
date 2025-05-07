@@ -605,11 +605,6 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 128.0
-    - Name: BorderThickness
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 1.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size

@@ -21,6 +21,7 @@ using FTOptix.SerialPort;
 using FTOptix.UI;
 using FTOptix.Core;
 using FTOptix.Alarm;
+using FTOptix.WebUI;
 #endregion
 
 public class MyFirstNetLogic : BaseNetLogic

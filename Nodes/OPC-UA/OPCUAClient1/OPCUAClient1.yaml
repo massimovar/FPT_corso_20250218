@@ -65,6 +65,5 @@ Children:
   - Name: ns=23;FPT_corso_20250218
     Id: ns=23;g=c8eac846b3f39dbae7220bf8ea900f9d
     Type: ProjectFolder
-    DisplayName: {"LocaleId":"","Text":"FPT_corso_20250218"}
     Children:
     - File: Model/Model.yaml

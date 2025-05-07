@@ -8,6 +8,7 @@ using FTOptix.NetLogic;
 using FTOptix.UI;
 using FTOptix.OPCUAServer;
 using FTOptix.Alarm;
+using FTOptix.WebUI;
 #endregion
 
 public class LocaleComboBoxLogic : BaseNetLogic

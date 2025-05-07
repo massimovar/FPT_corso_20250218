@@ -10,6 +10,7 @@ using FTOptix.CoreBase;
 using FTOptix.Core;
 using FTOptix.Retentivity;
 using FTOptix.Alarm;
+using FTOptix.WebUI;
 #endregion
 
 public class LoginChangePasswordButtonLogic : BaseNetLogic

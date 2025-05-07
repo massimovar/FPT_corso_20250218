@@ -6,6 +6,7 @@ using FTOptix.HMIProject;
 using UAManagedCore;
 using FTOptix.NetLogic;
 using FTOptix.Alarm;
+using FTOptix.WebUI;
 #endregion
 
 public class ChildrenCounter : BaseNetLogic

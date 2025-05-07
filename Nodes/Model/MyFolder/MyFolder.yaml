@@ -1,44 +1,44 @@
 Name: MyFolder
-Id: g=55487e622c2e4edeaf9d0ca7c25bd225
+Id: g=424c3261da024663bd2a178f947e8dcc
 Type: FolderType
 Children:
-- Name: MyVar0
-  Id: g=6f46b42114b24863a11342a2c028d2f6
+- Name: MyVariable0
+  Id: g=5df4b33ca219432cbb6589fb1b77e0c8
   Type: BaseDataVariableType
   DataType: Boolean
-- Name: MyVar1
-  Id: g=4b70cf186efd468399326db5d35943b1
+- Name: MyVariable1
+  Id: g=14b7cb5374ef4594b778597ed4a1505b
   Type: BaseDataVariableType
   DataType: Boolean
-- Name: MyVar2
-  Id: g=165ff68c4bcd4dc0b3a0f1dac3ccc173
+- Name: MyVariable2
+  Id: g=52707744ebac4390a67b732a53065fcd
   Type: BaseDataVariableType
   DataType: Boolean
-- Name: MyVar3
-  Id: g=2ebf20002c3a469cb33730a80447beca
+- Name: MyVariable3
+  Id: g=6be487f66f2a43899512771c0bae3e58
   Type: BaseDataVariableType
   DataType: Boolean
-- Name: MyVar4
-  Id: g=638fafe145bf4ec08356d0598cb15909
+- Name: MyVariable4
+  Id: g=295278a1814f4cc8bffa76a648d9fa7a
   Type: BaseDataVariableType
   DataType: Boolean
-- Name: MyVar5
-  Id: g=35d46fddddc047cb9d55dac8a6561573
+- Name: MyVariable5
+  Id: g=ba3634c13fe04dfe9014bdb82efa78d1
   Type: BaseDataVariableType
   DataType: Boolean
-- Name: MyVar6
-  Id: g=c89ea72b362d43b18bd8d7ab0d4e3e8c
+- Name: MyVariable6
+  Id: g=59d3dfee493246a9af6645a3bd6f4692
   Type: BaseDataVariableType
   DataType: Boolean
-- Name: MyVar7
-  Id: g=bf968dc9fe09433da922e89ce3359710
+- Name: MyVariable7
+  Id: g=1992558d32764fb29b295fdf7cee95fc
   Type: BaseDataVariableType
   DataType: Boolean
-- Name: MyVar8
-  Id: g=34725b3b24d04ccd9dbe4c924668b680
+- Name: MyVariable8
+  Id: g=6d04bb2566f3470a900fb50d125102df
   Type: BaseDataVariableType
   DataType: Boolean
-- Name: MyVar9
-  Id: g=9ee1f9a602bd4272bf4b4d2eb02f2a32
+- Name: MyVariable9
+  Id: g=3373e5b8368241c7a5fc330e8c22c72c
   Type: BaseDataVariableType
   DataType: Boolean
